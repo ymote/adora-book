@@ -1,3 +1,5 @@
+> **[中文文档](zh-cn/introduction.md)**
+
 # Adora
 
 **Agentic Dataflow-Oriented Robotic Architecture** -- a 100% Rust framework for building real-time robotics and AI applications.
