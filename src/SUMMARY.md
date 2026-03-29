@@ -2,6 +2,10 @@
 
 [Introduction](introduction.md)
 
+---
+
+- [中文版 (Chinese)](zh-cn/introduction.md)
+
 # Getting Started
 
 - [Installation](getting-started/installation.md)

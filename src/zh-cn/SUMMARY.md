@@ -2,6 +2,10 @@
 
 [简介](introduction.md)
 
+---
+
+- [English Version](../introduction.md)
+
 # 快速入门
 
 - [安装](getting-started/installation.md)
