@@ -10,7 +10,7 @@ build-dir = "book"
 [output.html]
 default-theme = "ayu"
 preferred-dark-theme = "ayu"
-git-repository-url = "https://github.com/dora-rs/adora-book"
-edit-url-template = "https://github.com/dora-rs/adora-book/edit/main/src/{path}"
+git-repository-url = "https://github.com/ymote/adora-book"
+edit-url-template = "https://github.com/ymote/adora-book/edit/main/src/{path}"
 site-url = "/adora-book/"
 additional-css = ["theme/adora.css"]

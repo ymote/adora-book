@@ -34,8 +34,8 @@
   --color-scheme: light;
 }
 
-/* ============ Dark Theme (Adora Dark) — covers ALL dark themes ============ */
-html.ayu, html.navy, html.coal, html.rust, .ayu, .navy, .coal, .rust {
+/* ============ Dark Theme (Adora Dark) — ayu, navy, coal ============ */
+html.ayu, html.navy, html.coal, .ayu, .navy, .coal {
   --bg: #0A0A0F;
   --fg: #E8E8F0;
   --sidebar-bg: #12121A;
@@ -61,6 +61,35 @@ html.ayu, html.navy, html.coal, html.rust, .ayu, .navy, .coal, .rust {
   --searchresults-li-bg: #1C1C28;
   --search-mark-bg: #FFB84D;
   --color-scheme: dark;
+}
+
+/* ============ Rust Theme (warm light) ============ */
+html.rust, .rust {
+  --bg: #FDF6E3;
+  --fg: #262220;
+  --sidebar-bg: #3B2E2A;
+  --sidebar-fg: #C4A882;
+  --sidebar-active: #00A882;
+  --sidebar-non-existant: #7A6A5A;
+  --sidebar-spacer: #5A4A3A;
+  --links: #009977;
+  --inline-code-color: #CC8800;
+  --theme-popup-bg: #FBF0D9;
+  --theme-popup-border: #E8D5B0;
+  --theme-hover: #F5EAD0;
+  --quote-bg: #FBF0D9;
+  --quote-border: #00A882;
+  --table-border-color: #E8D5B0;
+  --table-header-bg: #3B2E2A;
+  --table-alternate-bg: #FBF0D9;
+  --searchbar-border-color: #E8D5B0;
+  --searchbar-bg: #FFFFFF;
+  --searchbar-fg: #262220;
+  --searchbar-shadow-color: rgba(0, 168, 130, 0.1);
+  --searchresults-border-color: #E8D5B0;
+  --searchresults-li-bg: #FBF0D9;
+  --search-mark-bg: #FFB84D;
+  --color-scheme: light;
 }
 
 /* ============ Typography ============ */
@@ -152,6 +181,30 @@ html.light .content h2, html:not(.js) .content h2 {
 
 html.light .content h3, html:not(.js) .content h3 {
   color: #009977;
+}
+
+html.rust .content h1 {
+  color: #262220;
+  border-bottom-color: #00A882;
+}
+
+html.rust .content h2 {
+  color: #009977;
+  border-bottom-color: #E8D5B0;
+}
+
+html.rust .content h3 {
+  color: #009977;
+}
+
+html.rust .content pre {
+  background: #3B2E2A;
+  color: #E8D5B0;
+}
+
+html.rust .content code:not(pre code) {
+  background: #FBF0D9;
+  color: #CC8800;
 }
 
 /* Links */
