@@ -1,4 +1,4 @@
-> **[中文文档](zh-cn/introduction.md)**
+> 🌐 **[中文文档](https://ymote.github.io/adora-book-cn/)**
 
 # Adora
 
